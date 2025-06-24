@@ -52,14 +52,14 @@ AI Integration: Gemini API
 env
 Copy code
 
-JWT_SECRET =your_jwt_secret
-ADMIN_EMAIL=your_admin_email@example.com
-ADMIN_PASSWORD=your_secure_admin_password
-MONGODB_URI=your_mongodb_connection_string
-IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
-IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
-IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
-GEMINI_API_KEY=your_gemini_api_key
+a)JWT_SECRET =your_jwt_secret
+b)ADMIN_EMAIL=your_admin_email@example.com
+c)ADMIN_PASSWORD=your_secure_admin_password
+d)MONGODB_URI=your_mongodb_connection_string
+e)IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
+f)IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
+g)IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
+h)GEMINI_API_KEY=your_gemini_api_key
 
 ⚠️ Do not use the default credentials or expose your keys in public repositories.
 
