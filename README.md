@@ -30,27 +30,8 @@ AI Integration: Gemini API
 
 ⚙️ Setup Instructions
 
-1. Clone the Repository
-   bash
-   Copy code
-   git clone https://github.com/yourusername/pixeldiary.git
-   cd pixeldiary
-2. Install Dependencies
-   Client
-   bash
-   Copy code
-   cd client
-   npm install
-   Server
-   bash
-   Copy code
-   cd ../server
-   npm install
-3. Configure Environment Variables
-   For security purposes, you are required to create your own configuration values. In the server/.env file, include the following:
-
-env
-Copy code
+Configure Environment Variables
+For security purposes, you are required to create your own configuration values. In the server/.env file, include the following:
 
 (a) JWT_SECRET =your_jwt_secret
 (b) ADMIN_EMAIL=your_admin_email@example.com
@@ -62,22 +43,3 @@ Copy code
 (h) GEMINI_API_KEY=your_gemini_api_key
 
 ⚠️ Do not use the default credentials or expose your keys in public repositories.
-
-4. Start the Application
-   Start Backend Server
-   bash
-   Copy code
-   npm run dev
-   Start Frontend Client
-   bash
-   Copy code
-   cd client
-   npm run dev
-   The application should now be running at http://localhost:5173 (or the port configured in your frontend).
-
-🛡️ Security Notes
-Ensure your admin credentials (ADMIN_EMAIL and ADMIN_PASSWORD) are strong and unique.
-
-Always use your own MongoDB URI to store and manage blog data securely.
-
-Keep your .env file private and out of version control.
